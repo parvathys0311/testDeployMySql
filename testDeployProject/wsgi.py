@@ -16,7 +16,3 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'testDeployProject.settings')
 
 application = get_wsgi_application()
 
-
-
-project_folder = os.path.expanduser('~/testDeployMySql')  # adjust as appropriate
-load_dotenv(os.path.join(project_folder, '.env'))
