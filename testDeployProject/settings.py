@@ -133,4 +133,12 @@ MESSAGE_TAGS = {
     messages.ERROR:'danger',
 }
 # sendgrid settings
+SENDGRID_API_KEY = os.getenv('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')
+
+
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'apikey' # this is exactly the value 'apikey'
+EMAIL_HOST_PASSWORD = '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'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
